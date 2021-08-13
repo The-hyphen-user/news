@@ -1,0 +1,117 @@
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home{
+
+  margin: auto;
+  background-color: #cfbcc9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border: rgba(173, 233, 117, 0.541) solid 4px;
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.homeItems{
+  margin: auto;
+  background-color: #cfbcc9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border: rgba(173, 233, 117, 0.541) solid 4px;
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 1.5%;
+}
+
+.header{
+
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.table{
+  align-items: center;
+  background-color: #2651c5
+}
+
+.btn{
+  float:right;
+    
+}
+
+
+.button{
+  border-radius: 6px;
+  padding: 12px;
+  margin-left:10px;
+  margin-right: 10px;
+  background-color: rgb(202, 135, 241);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font: bold;
+}
+
+.button:hover {background-color: #2651c5}
+
+.button:active {
+  background-color: #122f80;
+  color: rgb(221, 221, 221);
+  transform: translateY(2px) translateX(2px);
+}
+
+
+.article{
+  margin: auto;
+  width: 45%;
+  border: 3px solid rgb(184, 192, 184);
+  padding: 10px;
+  text-align: center;
+}
+
+.articleList{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
